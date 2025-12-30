@@ -1,0 +1,97 @@
+.hero {
+  min-height: 100vh;
+  padding-top: 64px; /* space for navbar */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* black background with subtle gradient */
+  background: radial-gradient(
+      circle at top,
+      rgba(0, 255, 200, 0.08),
+      transparent 60%
+    ),
+    #0b0f14;
+}
+
+.content {
+  max-width: 720px;
+  text-align: center;
+  padding: 0 1.5rem;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.2;
+
+  /* turquoise gradient text */
+  background: linear-gradient(90deg, #00ffd1, #00b3ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.wave {
+  margin-left: 0.5rem;
+}
+
+.subtitle {
+  margin-top: 1.25rem;
+  font-size: 1.2rem;
+  color: #b3b8c4;
+}
+
+.actions {
+  margin-top: 2.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+/* Primary gradient button */
+.primaryBtn {
+  background: linear-gradient(90deg, #00ffd1, #00b3ff);
+  color: #0b0f14;
+  padding: 0.8rem 1.9rem;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.primaryBtn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 20px rgba(0, 255, 209, 0.4);
+}
+
+/* Secondary outlined button */
+.secondaryBtn {
+  background: transparent;
+  color: #e6eaf2;
+  padding: 0.8rem 1.9rem;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 255, 209, 0.5);
+  font-weight: 500;
+  text-decoration: none;
+  transition: background 0.2s ease, border 0.2s ease;
+}
+
+.secondaryBtn:hover {
+  background: rgba(0, 255, 209, 0.08);
+  border-color: #00ffd1;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .title {
+    font-size: 2.3rem;
+  }
+
+  .subtitle {
+    font-size: 1.05rem;
+  }
+
+  .actions {
+    flex-direction: column;
+  }
+}

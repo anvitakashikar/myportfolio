@@ -1,0 +1,14 @@
+:root {
+  --bg-black: #0b0f14;
+  --text-main: #e6eaf2;
+  --text-muted: #9aa4b2;
+
+  --accent-primary: #00ffd1;
+  --accent-secondary: #00b3ff;
+
+  --gradient-accent: linear-gradient(
+    90deg,
+    var(--accent-primary),
+    var(--accent-secondary)
+  );
+}
