@@ -1,15 +1,14 @@
-import Navbar from "./components/Navbar/Navbar";
-import Home from "./sections/Home/Home";
-import About from "./sections/About/About";
+import Navbar from './components/Navbar/Navbar';
 
-const App = () => {
+function App() {
   return (
     <>
       <Navbar />
-      <Home />
-      <About />
+      <main style={{ paddingTop: '70px' }}>
+        {/* Your sections go here */}
+      </main>
     </>
   );
-};
+}
 
 export default App;
