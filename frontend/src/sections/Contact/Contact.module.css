@@ -1,0 +1,48 @@
+.contact {
+  padding: 6rem 2rem;
+  background: #0b0b0b;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.heading {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  background: linear-gradient(90deg, #40e0d0, #5eead4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text {
+  max-width: 600px;
+  margin: 0 auto 2.5rem;
+  font-size: 1rem;
+  color: #cfcfcf;
+  line-height: 1.6;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.links a {
+  padding: 0.6rem 1.5rem;
+  border-radius: 999px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: #40e0d0;
+  border: 1px solid rgba(64, 224, 208, 0.4);
+  transition: all 0.3s ease;
+}
+
+.links a:hover {
+  background: #40e0d0;
+  color: #0b0b0b;
+}
