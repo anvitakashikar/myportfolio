@@ -62,3 +62,25 @@
   font-size: 0.8rem;
   color: #40e0d0;
 }
+
+/* Project links */
+.links {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.links a {
+  padding: 0.4rem 1rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  text-decoration: none;
+  color: #40e0d0;
+  border: 1px solid rgba(64, 224, 208, 0.4);
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.links a:hover {
+  background: #40e0d0;
+  color: #0b0b0b;
+}

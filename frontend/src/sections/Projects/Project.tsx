@@ -1,6 +1,6 @@
 import styles from './Project.module.css';
 
-const Project = () => {
+const Projects = () => {
   return (
     <section id="projects" className={styles.projects}>
       <div className={styles.container}>
@@ -15,6 +15,10 @@ const Project = () => {
               backend-powered data handling.
             </p>
             <span>React • Tailwind • Django</span>
+
+            <div className={styles.links}>
+              <a href="#" target="_blank">GitHub</a>
+            </div>
           </div>
 
           {/* Project 2 */}
@@ -25,6 +29,10 @@ const Project = () => {
               strengths and gaps.
             </p>
             <span>FastAPI • ML • Python</span>
+
+            <div className={styles.links}>
+              <a href="#" target="_blank">GitHub</a>
+            </div>
           </div>
 
           {/* Project 3 */}
@@ -35,6 +43,10 @@ const Project = () => {
               calories, and ingredients.
             </p>
             <span>React • FastAPI • APIs</span>
+
+            <div className={styles.links}>
+              <a href="#" target="_blank">GitHub</a>
+            </div>
           </div>
 
           {/* Project 4 */}
@@ -45,6 +57,10 @@ const Project = () => {
               learning with molecular simulations for drug discovery.
             </p>
             <span>Python • ML • Research</span>
+
+            <div className={styles.links}>
+              <a href="#" target="_blank">GitHub</a>
+            </div>
           </div>
         </div>
       </div>
@@ -52,4 +68,4 @@ const Project = () => {
   );
 };
 
-export default Project;
+export default Projects;
