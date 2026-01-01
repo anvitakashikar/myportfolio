@@ -1,28 +1,45 @@
-import styles from "./Home.module.css";
+import styles from './Home.module.css';
 
 const Home = () => {
   return (
-    <section className={styles.hero} id="home">
+    <section id="home" className={styles.home}>
       <div className={styles.content}>
-        <h1 className={styles.title}>
-          Hi, I’m Anvita
-          <span className={styles.wave}>👋</span>
+        <h1>
+          Hi, I’m <span>Anvita</span>
         </h1>
 
-        <p className={styles.subtitle}>
-          Final-year Computer Engineering student passionate about
-          Full-Stack Development, Data Science, and Machine Learning.
+        <h2>Final-Year Computer Engineering Student</h2>
+
+        <p>
+          I’m a passionate developer focused on building clean, user-centric
+          web applications and exploring intelligent systems through hands-on
+          projects in full-stack development and machine learning.
         </p>
 
-        <div className={styles.actions}>
+
+        {/* CTA */}
+        <div className={styles.cta}>
           <a href="#projects" className={styles.primaryBtn}>
             View Projects
           </a>
           <a href="#contact" className={styles.secondaryBtn}>
-            Contact Me
+            Get In Touch
           </a>
         </div>
+
+        {/* Socials */}
+        <div className={styles.socials}>
+          <a href="https://github.com/anvitakashikar" target="_blank">GitHub</a>
+          <a href="https://linkedin.com/in/anvita-kashikar-94196b2a5/" target="_blank">LinkedIn</a>
+          <a href="mailto:anvitakashikar29@gmail.com">Email</a>
+        </div>
       </div>
+
+      {/* Glow */}
+      <div className={styles.glow} />
+
+      {/* Scroll hint */}
+      <div className={styles.scrollHint}>Scroll ↓</div>
     </section>
   );
 };

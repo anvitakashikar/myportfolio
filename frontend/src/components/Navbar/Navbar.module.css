@@ -63,3 +63,11 @@
 .navLinks a:hover::after {
   width: 100%;
 }
+
+.active {
+  color: #ffffff;
+}
+
+.active::after {
+  width: 100%;
+}
