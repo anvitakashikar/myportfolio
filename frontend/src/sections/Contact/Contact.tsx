@@ -12,11 +12,11 @@ const Contact = () => {
         </p>
 
         <div className={styles.links}>
-          <a href="mailto:your.email@example.com">Email</a>
-          <a href="https://github.com/yourusername" target="_blank">
+          <a href="mailto:anvitakashikar29@gmail.com">Email</a>
+          <a href="https://github.com/anvitakashikar" target="_blank">
             GitHub
           </a>
-          <a href="https://linkedin.com/in/yourusername" target="_blank">
+          <a href="https://linkedin.com/in/anvita-kashikar-94196b2a5/" target="_blank">
             LinkedIn
           </a>
         </div>
