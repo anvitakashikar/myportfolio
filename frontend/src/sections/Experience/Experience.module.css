@@ -1,0 +1,158 @@
+.experience {
+  background-color: #0b0b0b;
+  padding: 6rem 2rem;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.heading {
+  font-size: 2.2rem;
+  color: #ffffff;
+  margin-bottom: 3rem;
+  position: relative;
+}
+
+
+.block {
+  margin-bottom: 3rem;
+}
+
+.block h3 {
+  font-size: 1.4rem;
+  color: #40e0d0;
+  margin-bottom: 1.5rem;
+}
+
+.item {
+  background: rgba(255, 255, 255, 0.03);
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin-bottom: 1.2rem;
+}
+
+.item h4 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+
+.item span {
+  display: block;
+  font-size: 0.85rem;
+  color: #9ca3af;
+  margin-bottom: 0.8rem;
+}
+
+.item p {
+  font-size: 0.95rem;
+  color: #d1d5db;
+  line-height: 1.6;
+}
+
+.list {
+  padding-left: 1.2rem;
+  color: #d1d5db;
+}
+
+.list li {
+  margin-bottom: 0.6rem;
+  font-size: 0.95rem;
+}
+
+.heading {
+  font-size: 2.2rem;
+  color: #ffffff;
+  margin-bottom: 3rem;
+  position: relative;
+}
+
+.heading::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  margin-top: 0.6rem;
+  background: linear-gradient(90deg, #40e0d0, #00ffd5);
+}
+
+/* Main grid */
+.grid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 3rem;
+}
+
+/* Left text */
+.text p {
+  color: #bdbdbd;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+}
+
+/* Right highlights */
+.highlights {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(64, 224, 208, 0.15);
+  border-radius: 14px;
+  padding: 1.5rem;
+}
+
+.card h3 {
+  color: #40e0d0;
+  font-size: 1.05rem;
+  margin-bottom: 0.6rem;
+}
+
+.card p {
+  color: #9e9e9e;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+/* Skills */
+.skills {
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+}
+
+.skillCard {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(64, 224, 208, 0.15);
+  border-radius: 14px;
+  padding: 1.5rem;
+  transition: transform 0.3s ease, border 0.3s ease;
+}
+
+.skillCard:hover {
+  transform: translateY(-6px);
+  border-color: #40e0d0;
+}
+
+.skillCard h4 {
+  color: #40e0d0;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.skillCard p {
+  color: #9e9e9e;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
