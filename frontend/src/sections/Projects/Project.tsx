@@ -7,14 +7,16 @@ const Projects = () => {
         <h2 className={styles.heading}>Projects</h2>
 
         <div className={styles.grid}>
-          {/* Project 1 */}
+          {/* Project 3 */}
           <div className={styles.card}>
-            <h3>QuickStay</h3>
+            <h3>Multi-task Modelling</h3>
+            <span></span>
+
             <p>
-              A full-stack hotel booking platform with a modern UI and
-              backend-powered data handling.
+              A web app that filters recipes based on dietary preferences,
+              calories, and ingredients.
             </p>
-            <span>React • Tailwind • Django</span>
+           
 
             <div className={styles.links}>
               <a href="#" target="_blank">GitHub</a>
@@ -23,45 +25,37 @@ const Projects = () => {
 
           {/* Project 2 */}
           <div className={styles.card}>
-            <h3>SkillPulse</h3>
+            <h3>Detection of Retinal Disease</h3>
+            <span>
+              <i>Python, TensorFlow (Keras), Teachable Machine, Google Colab</i>
+            </span>
             <p>
-              An AI-powered developer skill evaluator that analyzes technical
-              strengths and gaps.
+              Developed a Retinal Disease Detection system using supervised machine learning techniques to analyze 
+              and classify retinal images. The project leverages deep learning models such as CNNs for feature 
+              extraction from medical images and integrates additional classification approaches to improve accuracy.
             </p>
-            <span>FastAPI • ML • Python</span>
-
             <div className={styles.links}>
-              <a href="#" target="_blank">GitHub</a>
+              <a href="https://github.com/anvitakashikar/Detection_Retinaldisease" target="_blank">GitHub</a>
             </div>
-          </div>
+        </div>
 
-          {/* Project 3 */}
+          {/* Project 1 */}
           <div className={styles.card}>
-            <h3>Food Recipe Finder</h3>
+            <h3>Color Detection</h3>
+            <span>
+              <i>Python, TensorFlow (Keras), Teachable Machine, Google Colab</i>
+            </span>
             <p>
-              A web app that filters recipes based on dietary preferences,
-              calories, and ingredients.
+              Built a Color Detection system as an introductory machine learning project using Teachable Machine 
+              and a Keras model powered by TensorFlow. The model was trained to classify colors and developed using 
+              Google Colab for efficient cloud-based experimentation.
             </p>
-            <span>React • FastAPI • APIs</span>
 
             <div className={styles.links}>
-              <a href="#" target="_blank">GitHub</a>
+              <a href="https://github.com/anvitakashikar/Color_Detection" target="_blank">GitHub</a>
             </div>
           </div>
-
-          {/* Project 4 */}
-          <div className={styles.card}>
-            <h3>QuMolBind</h3>
-            <p>
-              A research-focused project combining quantum reinforcement
-              learning with molecular simulations for drug discovery.
-            </p>
-            <span>Python • ML • Research</span>
-
-            <div className={styles.links}>
-              <a href="#" target="_blank">GitHub</a>
-            </div>
-          </div>
+          
         </div>
       </div>
     </section>
