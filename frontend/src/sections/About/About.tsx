@@ -38,7 +38,7 @@ const About = () => {
               <p>
                 Full Stack Development<br />
                 Machine Learning<br />
-                System Design
+                
               </p>
             </div>
           </div>
