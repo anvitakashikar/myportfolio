@@ -11,9 +11,9 @@ const Home = () => {
         <h2>Final-Year Computer Engineering Student</h2>
 
         <p>
-          I’m a passionate developer focused on building clean, user-centric
-          web applications and exploring intelligent systems through hands-on
-          projects in full-stack development and machine learning.
+          Undergraduate Computer Science student specializing in Artificial Intelligence, Machine Learning, and Full Stack
+          Development. Passionate about solving complex problems, building scalable software systems, and contributing to
+          open-source initiatives. Strong collaborative, leadership, and problem-solving skills.
         </p>
 
 

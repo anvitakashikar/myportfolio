@@ -10,16 +10,11 @@ const About = () => {
           {/* Left content */}
           <div className={styles.text}>
             <p>
-              I’m a final-year Computer Engineering student with a strong interest
-              in building scalable, user-focused applications. I enjoy working
-              across the full stack and experimenting with machine learning
-              concepts through practical projects.
+              I am a final-year Computer Science and Engineering student with honors in Data Science, passionate about Artificial Intelligence, Machine Learning, and Full Stack Development. Over the course of my academic journey, I have gained hands-on experience through internships in full-stack development, machine learning, and research, which have strengthened my problem-solving skills and technical expertise.
             </p>
 
             <p>
-              I’m particularly drawn to projects that combine clean UI,
-              thoughtful backend design, and data-driven decision making. I’m
-              always curious about how systems work end-to-end.
+              Beyond academics, I actively contribute to the community as the Chairperson of ISTE SC and as a member of social initiatives like Forengers Foundation (CRW) and Yuvti Vibhag, where I focus on leadership, collaboration, and social impact. I thrive at the intersection of technology and innovation, building scalable software solutions, working on impactful projects, and constantly exploring new avenues to learn and grow.
             </p>
 
             <p>
